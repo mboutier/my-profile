@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(245,245,245);
+    color:rgb(100,100,100);
+    font-family: 'Merriweather', serif;
+   }
+   
+   h1,h2,h3,a {
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+   
+   h1 {
+     color:rgb(40,40,40);
+     font-weight: 700;
+   }
+   
+   h2 {
+     color:#42B85A;
+     font-size:25;
+   }
+   
+   h3 {
+     font-size: 23px ;
+     color:rgb(72,72,72);
+   }
+   
+   a {
+     font-weight: 700;
+     text-decoration: none;
+     font-size:20px;
+    }
+   
+   .container{
+     margin: 30px auto;
+     width: 800px;
+     text-align:center;
+   }
+   
+   @media (max-width: 960px) {
+     .container {
+       width: 700px;
+     }
+   }
+   
+   @media (max-width: 720px) {
+     .container {
+       width: 500px;
+     }
+       .img-circle{
+       width: 200px;
+     }
+   }
+   
+   @media (max-width: 540px) {
+     .container {
+       width: 300px;
+     }
+     .img-circle{
+       width: 150px;
+     }
+   }
+   
+   
+   .card-white{
+     margin: 10px auto;
+     padding: 30px 35px;
+     background-color: white;
+     box-shadow: 2px 5px 3px rgba(50,50,50,0.2);
+     border-radius: 4px;
+     border: 1px solid lightgrey;
+   }
+
+
+   .img-circle{
+     border-radius: 50%;
+     height: 300px;
+     width: 200px ;
+
+   }
+
+   .logo{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px
+
+   }
+   
+   #intro p{
+     margin : 30px;
+   }
+   
+   #topics{
+     margin:70px 0px;
+   }
+   
+   .btn-blue {
+     background-color: #4254BE;
+     color : white;
+     padding : 8px 30px;
+     border-radius: 4px;
+   }
+   
+   .btn-blue:hover{
+     background-color: #060E96;
+     color : white;
+   }
+   
+   .list-inline{
+     list-style: none;
+     padding-left:0px;
+   }
+   
+   .list-inline li{
+     display:inline;
+     padding:10px;
+   }
+   
+   .list-inline i {
+     color: #4254BE;
+     font-size : 40px;
+   }
+   
+   .list-inline i:hover{
+     color: #060E96;
+   }
+
+ 
+   .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+ 
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+ 
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+  }
